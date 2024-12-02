@@ -22,7 +22,7 @@ class PoolUpdater:
       }
       self.history_file = Path('results/ip_history.json')
       self.ip_history = self._load_history()
-      self.latency_threshold = config.get('latency_threshold', 150)
+      self.latency_threshold = config.get('latency_threshold', 120)
       self.stability_threshold = config.get('stability_threshold', 50) 
       self.score_threshold = config.get('score_threshold', 200)
 
