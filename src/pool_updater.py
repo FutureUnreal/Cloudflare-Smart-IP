@@ -23,6 +23,7 @@ class PoolUpdater:
       self.history_file = Path('results/ip_history.json')
       self.ip_history = self._load_history()
       self.latency_threshold = config.get('latency_threshold', 160)
+      self.bad_latency_threshold = config.get('bad_latency_threshold', 200)
       self.stability_threshold = config.get('stability_threshold', 50) 
       self.score_threshold = config.get('score_threshold', 200)
       self.bad_ip_threshold = config.get('bad_ip_threshold', 5)
@@ -72,7 +73,7 @@ class PoolUpdater:
           if isinstance(data, dict):
               latency = data.get('latency', float('inf'))
               latencies.append(latency)
-              if latency < self.latency_threshold and data.get('available', False):
+              if latency < self.bad_latency_threshold and data.get('available', False):
                   failed = False
       
       if failed:
