@@ -1,7 +1,7 @@
 import json
 import statistics
 from pathlib import Path
-from typing import Dict
+from typing import Dict, List
 from .utils import setup_logging
 from datetime import datetime, timedelta
 
@@ -25,6 +25,10 @@ class PoolUpdater:
       self.latency_threshold = config.get('latency_threshold', 120)
       self.stability_threshold = config.get('stability_threshold', 50) 
       self.score_threshold = config.get('score_threshold', 200)
+      self.bad_ip_threshold = config.get('bad_ip_threshold', 5)
+      self.bad_ips_file = Path('results/bad_ips.json')
+      self.bad_ips = self._load_bad_ips()
+      self.confirm_threshold = config.get('confirm_threshold', 3)  # 确认次数阈值
 
   def _load_history(self) -> Dict:
       if self.history_file.exists():
@@ -36,6 +40,88 @@ class PoolUpdater:
       self.history_file.parent.mkdir(exist_ok=True)
       with open(self.history_file, 'w') as f:
           json.dump(self.ip_history, f, indent=2)
+
+  def _load_bad_ips(self) -> Dict:
+      if self.bad_ips_file.exists():
+          with open(self.bad_ips_file) as f:
+              return json.load(f)
+      return {}
+
+  def _save_bad_ips(self):
+      with open(self.bad_ips_file, 'w') as f:
+          json.dump(self.bad_ips, f, indent=2)
+
+  def _update_bad_ips(self, ip: str, test_results: Dict):
+      """更新IP的测试记录"""
+      if ip not in self.bad_ips:
+          self.bad_ips[ip] = {
+              'fails': 0,
+              'tests': 0,
+              'last_latencies': [],
+              'first_seen': datetime.now().isoformat()
+          }
+      
+      record = self.bad_ips[ip]
+      record['tests'] += 1
+      record['last_seen'] = datetime.now().isoformat()
+      
+      # 记录每个ISP的测试结果
+      failed = True
+      latencies = []
+      for isp, data in test_results.items():
+          if isinstance(data, dict):
+              latency = data.get('latency', float('inf'))
+              latencies.append(latency)
+              if latency < self.latency_threshold and data.get('available', False):
+                  failed = False
+      
+      if failed:
+          record['fails'] += 1
+      
+      # 保持最近10次测试的延迟记录
+      record['last_latencies'] = (record['last_latencies'] + latencies)[-10:]
+      
+      # 检查是否应该加入skip_ips
+      if self._should_skip_ip(record):
+          self._add_to_skip_ips(ip, record)
+
+  def _should_skip_ip(self, record: Dict) -> bool:
+      """判断IP是否应该被加入skip_ips"""
+      if record['tests'] < self.confirm_threshold:
+          return False
+          
+      # 失败率检查
+      fail_rate = record['fails'] / record['tests']
+      if fail_rate < 0.8:  # 失败率需要超过80%
+          return False
+          
+      # 延迟检查
+      recent_latencies = [l for l in record['last_latencies'] if l < float('inf')]
+      if recent_latencies:
+          avg_latency = sum(recent_latencies) / len(recent_latencies)
+          if avg_latency < self.latency_threshold:
+              return False
+              
+      return True
+
+  def _add_to_skip_ips(self, ip: str, record: Dict):
+      """添加IP到skip_ips"""
+      ip_ranges_file = Path('config/ip_ranges.json')
+      try:
+          with open(ip_ranges_file, 'r') as f:
+              ip_ranges = json.load(f)
+          
+          if ip not in ip_ranges['skip_ips']:
+              ip_ranges['skip_ips'].append(ip)
+              # 添加注释说明
+              record['added_to_skip'] = datetime.now().isoformat()
+              record['reason'] = f"Failed {record['fails']}/{record['tests']} tests"
+              
+              with open(ip_ranges_file, 'w') as f:
+                  json.dump(ip_ranges, f, indent=2)
+              self.logger.info(f"IP {ip} 已添加到 skip_ips: {record['reason']}")
+      except Exception as e:
+          self.logger.error(f"添加IP到skip_ips失败: {str(e)}")
 
   def _update_history(self, ip: str, metrics: Dict):
       if ip not in self.ip_history:
@@ -108,8 +194,7 @@ class PoolUpdater:
           return None
 
   def cleanup_intermediate_files(self):
-      """清理中间文件但保留重要历史数据"""
-      exclude_patterns = ['ip_history.json', 'test_results_latest.json', 'ip_pools_latest.json']
+      exclude_patterns = ['ip_history.json', 'test_results_latest.json', 'ip_pools_latest.json', 'bad_ips.json']
       for f in self.results_dir.glob('test_results_intermediate_*.json'):
           if f.name not in exclude_patterns and (datetime.now() - datetime.fromtimestamp(f.stat().st_mtime)).days > 1:
               try:
@@ -134,6 +219,9 @@ class PoolUpdater:
               continue
 
           ip = result['ip']
+          # 更新不良IP记录
+          self._update_bad_ips(ip, result['tests'])
+
           for isp_short, test_data in result['tests'].items():
               full_isp = self.isp_mapping.get(isp_short)
               if not full_isp:
@@ -167,7 +255,6 @@ class PoolUpdater:
       for isp in organized_data:
           for region in organized_data[isp]:
               current_ips = set(self.ip_pools[isp][region])
-              
               candidates = organized_data[isp][region]
               candidates.sort(key=lambda x: (x['score'], x['latency']))
               
@@ -192,9 +279,8 @@ class PoolUpdater:
                       f"{candidates[min(self.max_ips_per_region-1, len(candidates)-1)]['latency']:.1f}ms"
                   )
 
-      # 清理旧的中间文件
       self.cleanup_intermediate_files()
-
+      self._save_bad_ips()
       self._save_history()
       self.save_results()
       return self.ip_pools
