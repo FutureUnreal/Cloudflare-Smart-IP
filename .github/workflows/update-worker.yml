@@ -2,7 +2,7 @@ name: Test and Update Worker
 
 on:
   schedule:
-    - cron: '0 */7 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 concurrency: 
