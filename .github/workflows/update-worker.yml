@@ -1,3 +1,4 @@
+# update-worker.yml
 name: Test and Update Worker
 
 on:
@@ -50,22 +51,19 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 保存当前更改
         cp -r results results_backup
+        cp -r config config_backup
         
-        # 获取并切换到最新的远程分支
         git fetch origin ${GITHUB_REF##*/}
         git reset --hard origin/${GITHUB_REF##*/}
         
-        # 恢复新的测试结果
-        rm -rf results
+        rm -rf results config
         cp -r results_backup results
+        cp -r config_backup config
         
-        # 添加并提交更改
-        git add results/
-        git commit -m "chore: update test results [skip ci]" || echo "No changes to commit"
+        git add results/ config/
+        git commit -m "chore: update test results and config [skip ci]" || echo "No changes to commit"
         
-        # 推送更改
         git push origin ${GITHUB_REF##*/}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
