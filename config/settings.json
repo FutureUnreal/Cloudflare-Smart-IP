@@ -1,59 +1,62 @@
+// settings.json
 {
-  "test_timeout": 5,
-  "min_request_interval": 0,
-  "retry_delay": 0,
-  "nodes_per_test": 1,
-  "ips_per_region": 8,
-  "sample_rate": 0.0002,
-  "latency_threshold": 120,
-  "stability_threshold": 50,
-  "score_threshold": 200,
-  "regions": [
-    "EAST",
-    "SOUTH",
-    "NORTH",
-    "CENTRAL",
-    "SOUTHWEST",
-    "NORTHWEST",
-    "NORTHEAST"
-  ],
-  "isps": [
-    "CHINA_TELECOM",
-    "CHINA_UNICOM",
-    "CHINA_MOBILE"
-  ],
-  "cloudflare": {
-    "account_id": "",
-    "api_token": "",
-    "worker_name": ""
-  },
-  "NODE_MAPPING": {
-    "CHINA_TELECOM": {
-      "EAST": ["1227", "1312"],
-      "SOUTH": ["1169", "1135"],
-      "NORTH": ["1310", "1132"],
-      "CENTRAL": ["1214", "1311"],
-      "SOUTHWEST": ["1138", "1304"],
-      "NORTHWEST": ["1124", "1127"],
-      "NORTHEAST": ["1168", "1129"]
-    },
-    "CHINA_UNICOM": {
-      "EAST": ["1254", "1275"],
-      "SOUTH": ["1278", "1264"],
-      "NORTH": ["1273", "1266"],
-      "CENTRAL": ["1276", "1277"],
-      "SOUTHWEST": ["1253", "1226"],
-      "NORTHWEST": ["1260", "1256"],
-      "NORTHEAST": ["1301", "1268"]
-    },
-    "CHINA_MOBILE": {
-      "EAST": ["1249", "1237"],
-      "SOUTH": ["1290", "1294"],
-      "NORTH": ["1250", "1295"],
-      "CENTRAL": ["1287", "1242"],
-      "SOUTHWEST": ["1245", "1283"],
-      "NORTHWEST": ["1279", "1282"],
-      "NORTHEAST": ["1293", "1292"]
-    }
-  }
+ "test_timeout": 5,
+ "min_request_interval": 0,
+ "retry_delay": 0,
+ "nodes_per_test": 1,
+ "ips_per_region": 20,
+ "sample_rate": 0.0002,
+ "latency_threshold": 120,
+ "stability_threshold": 50,
+ "score_threshold": 200,
+ "bad_ip_threshold": 5,
+ "confirm_threshold": 3,
+ "regions": [
+   "EAST",
+   "SOUTH", 
+   "NORTH",
+   "CENTRAL", 
+   "SOUTHWEST",
+   "NORTHWEST",
+   "NORTHEAST"
+ ],
+ "isps": [
+   "CHINA_TELECOM",
+   "CHINA_UNICOM", 
+   "CHINA_MOBILE"
+ ],
+ "cloudflare": {
+   "account_id": "",
+   "api_token": "",
+   "worker_name": ""
+ },
+ "NODE_MAPPING": {
+   "CHINA_TELECOM": {
+     "EAST": ["1227", "1312"],
+     "SOUTH": ["1169", "1135"],
+     "NORTH": ["1310", "1132"],
+     "CENTRAL": ["1214", "1311"],
+     "SOUTHWEST": ["1138", "1304"],
+     "NORTHWEST": ["1124", "1127"],
+     "NORTHEAST": ["1168", "1129"]
+   },
+   "CHINA_UNICOM": {
+     "EAST": ["1254", "1275"],
+     "SOUTH": ["1278", "1264"],
+     "NORTH": ["1273", "1266"],
+     "CENTRAL": ["1276", "1277"],
+     "SOUTHWEST": ["1253", "1226"],
+     "NORTHWEST": ["1260", "1256"],
+     "NORTHEAST": ["1301", "1268"]
+   },
+   "CHINA_MOBILE": {
+     "EAST": ["1249", "1237"],
+     "SOUTH": ["1290", "1294"],
+     "NORTH": ["1250", "1295"],
+     "CENTRAL": ["1287", "1242"],
+     "SOUTHWEST": ["1245", "1283"],
+     "NORTHWEST": ["1279", "1282"],
+     "NORTHEAST": ["1293", "1292"]
+   }
+ }
 }
