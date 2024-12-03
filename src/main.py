@@ -37,6 +37,9 @@ def main():
    logger = setup_logging()
    logger.info("开始更新流程")
 
+   cleaner = PoolUpdater(load_configs())
+   cleaner.cleanup_intermediate_files()
+
    try:
        # 加载配置
        config = load_configs()
