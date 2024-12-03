@@ -195,14 +195,22 @@ class PoolUpdater:
           return None
 
   def cleanup_intermediate_files(self):
-      exclude_patterns = ['ip_history.json', 'test_results_latest.json', 'ip_pools_latest.json', 'bad_ips.json']
-      for f in self.results_dir.glob('test_results_intermediate_*.json'):
-          if f.name not in exclude_patterns and (datetime.now() - datetime.fromtimestamp(f.stat().st_mtime)).days > 1:
-              try:
-                  f.unlink()
-                  self.logger.info(f"已删除中间文件: {f.name}")
-              except Exception as e:
-                  self.logger.error(f"删除文件失败 {f.name}: {str(e)}")
+    # 保留最近一小时的中间文件，删除其他的
+    one_hour_ago = datetime.now() - timedelta(hours=1)
+    patterns = [
+        'test_results_intermediate_*.json',
+        'worker_*.js'
+    ]
+    
+    for pattern in patterns:
+        for f in self.results_dir.glob(pattern):
+            if (datetime.fromtimestamp(f.stat().st_mtime) < one_hour_ago and
+                'latest' not in f.name):
+                try:
+                    f.unlink()
+                    self.logger.info(f"已删除历史文件: {f.name}")
+                except Exception as e:
+                    self.logger.error(f"删除文件失败 {f.name}: {str(e)}")
 
   def update(self) -> Dict:
       results = self.load_test_results()
