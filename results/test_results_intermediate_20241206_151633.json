@@ -1,283 +1,19 @@
 [
   {
-    "ip": "104.17.186.44",
+    "ip": "104.20.18.3",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 164.0,
+        "latency": 204.0,
         "loss": 0,
         "available": true,
-        "node_id": "1135"
+        "node_id": "1312"
       },
       "UNICOM": {
-        "latency": 178.0,
+        "latency": 824.0,
         "loss": 0,
         "available": true,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": 138.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "172.67.124.34",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 241.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": 434.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": 181.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "172.67.57.34",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 215.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 560.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
-        "latency": 173.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1294"
-      }
-    }
-  },
-  {
-    "ip": "104.25.129.8",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 220.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 458.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1256"
-      },
-      "MOBILE": {
-        "latency": 171.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.24.215.119",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 239.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 443.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": 208.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.21.36.37",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 212.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1273"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1293"
-      }
-    }
-  },
-  {
-    "ip": "104.17.52.249",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 156.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 277.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1301"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "172.65.240.15",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 355.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1124"
-      },
-      "UNICOM": {
-        "latency": 166.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
-        "latency": 189.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.16.79.4",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 185.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1169"
-      },
-      "UNICOM": {
-        "latency": 180.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 173.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1242"
-      }
-    }
-  },
-  {
-    "ip": "104.24.107.224",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1279"
-      }
-    }
-  },
-  {
-    "ip": "104.17.209.132",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 156.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": 129.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "104.21.192.241",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 169.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1277"
+        "node_id": "1254"
       },
       "MOBILE": {
         "latency": 170.0,
@@ -288,83 +24,59 @@
     }
   },
   {
-    "ip": "104.17.211.21",
+    "ip": "104.19.214.146",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 174.0,
+        "latency": 149.0,
         "loss": 0,
         "available": true,
-        "node_id": "1138"
+        "node_id": "1227"
       },
       "UNICOM": {
-        "latency": 203.0,
+        "latency": 254.0,
         "loss": 0,
         "available": true,
-        "node_id": "1277"
+        "node_id": "1273"
       },
       "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
+        "latency": 53.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1290"
       }
     }
   },
   {
-    "ip": "104.19.217.158",
+    "ip": "104.21.77.26",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 169.0,
+        "latency": 182.0,
         "loss": 0,
         "available": true,
-        "node_id": "1168"
+        "node_id": "1138"
       },
       "UNICOM": {
-        "latency": 174.0,
+        "latency": 743.0,
         "loss": 0,
         "available": true,
-        "node_id": "1256"
+        "node_id": "1254"
       },
       "MOBILE": {
-        "latency": 177.0,
+        "latency": 193.0,
         "loss": 0,
         "available": true,
-        "node_id": "1292"
+        "node_id": "1282"
       }
     }
   },
   {
-    "ip": "104.20.174.187",
+    "ip": "172.67.128.150",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 226.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1129"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1268"
-      },
-      "MOBILE": {
-        "latency": 194.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "172.67.34.151",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 240.0,
+        "latency": 208.0,
         "loss": 0,
         "available": true,
         "node_id": "1124"
@@ -373,79 +85,103 @@
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1273"
+        "node_id": "1253"
       },
       "MOBILE": {
-        "latency": 177.0,
+        "latency": 242.0,
         "loss": 0,
         "available": true,
-        "node_id": "1283"
+        "node_id": "1245"
       }
     }
   },
   {
-    "ip": "104.24.19.204",
+    "ip": "104.18.230.159",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 261.0,
+        "latency": 151.0,
         "loss": 0,
         "available": true,
-        "node_id": "1127"
+        "node_id": "1132"
       },
       "UNICOM": {
+        "latency": 188.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1256"
+      },
+      "MOBILE": {
+        "latency": 70.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1242"
+      }
+    }
+  },
+  {
+    "ip": "104.27.173.248",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1254"
-      },
-      "MOBILE": {
-        "latency": 164.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.19.114.52",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 150.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1311"
-      },
-      "UNICOM": {
-        "latency": 727.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1301"
-      },
-      "MOBILE": {
-        "latency": 162.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.21.235.86",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 146.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1312"
+        "node_id": "1138"
       },
       "UNICOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
         "node_id": "1268"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "104.25.231.138",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 228.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1214"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1268"
+      },
+      "MOBILE": {
+        "latency": 209.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1292"
+      }
+    }
+  },
+  {
+    "ip": "104.25.60.195",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1138"
+      },
+      "UNICOM": {
+        "latency": 1124.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
       },
       "MOBILE": {
         "latency": Infinity,
@@ -456,167 +192,47 @@
     }
   },
   {
-    "ip": "104.25.144.160",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 232.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 418.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "104.19.240.194",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 174.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 187.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.25.202.251",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 246.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1304"
-      },
-      "UNICOM": {
-        "latency": 407.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1276"
-      },
-      "MOBILE": {
-        "latency": 198.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.20.193.159",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 226.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1132"
-      },
-      "UNICOM": {
-        "latency": 527.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 220.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.19.68.216",
+    "ip": "104.21.106.87",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": 169.0,
         "loss": 0,
         "available": true,
-        "node_id": "1127"
+        "node_id": "1227"
       },
       "UNICOM": {
-        "latency": 436.0,
+        "latency": 597.0,
         "loss": 0,
         "available": true,
-        "node_id": "1276"
+        "node_id": "1253"
       },
       "MOBILE": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1293"
+        "node_id": "1279"
       }
     }
   },
   {
-    "ip": "104.24.156.35",
+    "ip": "104.19.252.0",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 231.0,
+        "latency": 156.0,
         "loss": 0,
         "available": true,
-        "node_id": "1135"
+        "node_id": "1312"
       },
       "UNICOM": {
-        "latency": 509.0,
+        "latency": 210.0,
         "loss": 0,
         "available": true,
-        "node_id": "1275"
+        "node_id": "1276"
       },
       "MOBILE": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "172.65.0.188",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 219.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": 213.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": 192.0,
+        "latency": 184.0,
         "loss": 0,
         "available": true,
         "node_id": "1250"
@@ -624,59 +240,83 @@
     }
   },
   {
-    "ip": "104.25.83.85",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 215.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1169"
-      },
-      "UNICOM": {
-        "latency": 610.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": 230.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "104.18.64.34",
+    "ip": "104.19.250.18",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
+        "node_id": "1214"
+      },
+      "UNICOM": {
+        "latency": 220.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1256"
+      },
+      "MOBILE": {
+        "latency": 185.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1250"
+      }
+    }
+  },
+  {
+    "ip": "104.16.18.105",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 198.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1138"
       },
       "UNICOM": {
-        "latency": 238.0,
+        "latency": 208.0,
         "loss": 0,
         "available": true,
-        "node_id": "1273"
+        "node_id": "1253"
       },
       "MOBILE": {
-        "latency": 171.0,
+        "latency": 190.0,
         "loss": 0,
         "available": true,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "104.18.47.177",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 167.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 214.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1254"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
         "node_id": "1282"
       }
     }
   },
   {
-    "ip": "172.65.174.122",
+    "ip": "104.20.11.39",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 282.0,
+        "latency": 278.0,
         "loss": 0,
         "available": true,
         "node_id": "1124"
@@ -688,103 +328,199 @@
         "node_id": "1273"
       },
       "MOBILE": {
-        "latency": 175.0,
+        "latency": 163.0,
         "loss": 0,
         "available": true,
-        "node_id": "1294"
+        "node_id": "1290"
       }
     }
   },
   {
-    "ip": "172.66.137.222",
+    "ip": "172.67.187.60",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 236.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 511.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 189.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "172.67.137.2",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 148.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 448.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": 235.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "104.24.60.159",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 242.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": 483.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
+        "node_id": "1169"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1301"
+      },
+      "MOBILE": {
+        "latency": 199.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1295"
       }
     }
   },
   {
-    "ip": "104.17.226.50",
+    "ip": "104.16.207.77",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 172.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 213.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": 151.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1282"
+      }
+    }
+  },
+  {
+    "ip": "172.65.247.151",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": 164.0,
         "loss": 0,
         "available": true,
-        "node_id": "1135"
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 212.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": 190.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.27.137.92",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1310"
       },
       "UNICOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1268"
+        "node_id": "1253"
       },
       "MOBILE": {
-        "latency": 181.0,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1292"
+      }
+    }
+  },
+  {
+    "ip": "104.20.157.173",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 260.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1127"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1301"
+      },
+      "MOBILE": {
+        "latency": 193.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1250"
+      }
+    }
+  },
+  {
+    "ip": "104.27.23.37",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 246.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1135"
+      },
+      "UNICOM": {
+        "latency": 792.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1276"
+      },
+      "MOBILE": {
+        "latency": 178.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "104.17.140.73",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 218.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1127"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1279"
+      }
+    }
+  },
+  {
+    "ip": "104.18.135.62",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 161.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 206.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1260"
+      },
+      "MOBILE": {
+        "latency": 193.0,
         "loss": 0,
         "available": true,
         "node_id": "1295"
@@ -792,103 +528,103 @@
     }
   },
   {
-    "ip": "104.16.208.12",
+    "ip": "104.17.139.111",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 178.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 283.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1275"
+      },
+      "MOBILE": {
+        "latency": 189.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "104.20.202.119",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": 227.0,
         "loss": 0,
         "available": true,
-        "node_id": "1124"
+        "node_id": "1135"
       },
       "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 178.0,
+        "latency": 697.0,
         "loss": 0,
         "available": true,
-        "node_id": "1245"
+        "node_id": "1275"
+      },
+      "MOBILE": {
+        "latency": 174.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1249"
       }
     }
   },
   {
-    "ip": "104.27.36.235",
+    "ip": "104.16.222.204",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 210.0,
+        "latency": 164.0,
         "loss": 0,
         "available": true,
-        "node_id": "1310"
+        "node_id": "1312"
       },
       "UNICOM": {
-        "latency": 478.0,
+        "latency": 298.0,
         "loss": 0,
         "available": true,
-        "node_id": "1276"
+        "node_id": "1226"
       },
       "MOBILE": {
-        "latency": 177.0,
-        "loss": 0,
-        "available": true,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
         "node_id": "1294"
       }
     }
   },
   {
-    "ip": "172.67.114.46",
+    "ip": "104.25.43.175",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 239.0,
+        "latency": 250.0,
         "loss": 0,
         "available": true,
-        "node_id": "1169"
+        "node_id": "1168"
       },
       "UNICOM": {
-        "latency": 501.0,
+        "latency": 1038.0,
         "loss": 0,
         "available": true,
-        "node_id": "1254"
+        "node_id": "1264"
       },
       "MOBILE": {
-        "latency": 210.0,
+        "latency": 170.0,
         "loss": 0,
         "available": true,
-        "node_id": "1292"
+        "node_id": "1290"
       }
     }
   },
   {
-    "ip": "104.27.181.232",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1312"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1268"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "172.67.175.32",
+    "ip": "104.24.176.127",
     "status": "ok",
     "tests": {
       "TELECOM": {
@@ -898,13 +634,13 @@
         "node_id": "1311"
       },
       "UNICOM": {
-        "latency": 435.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1276"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1301"
       },
       "MOBILE": {
-        "latency": 161.0,
+        "latency": 172.0,
         "loss": 0,
         "available": true,
         "node_id": "1294"
@@ -912,41 +648,17 @@
     }
   },
   {
-    "ip": "104.16.214.155",
+    "ip": "104.16.93.23",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 306.0,
+        "latency": 220.0,
         "loss": 0,
         "available": true,
-        "node_id": "1127"
+        "node_id": "1124"
       },
       "UNICOM": {
-        "latency": 190.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1275"
-      },
-      "MOBILE": {
-        "latency": 190.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "104.20.107.47",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 221.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1169"
-      },
-      "UNICOM": {
-        "latency": 519.0,
+        "latency": 259.0,
         "loss": 0,
         "available": true,
         "node_id": "1273"
@@ -955,25 +667,25 @@
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1295"
+        "node_id": "1283"
       }
     }
   },
   {
-    "ip": "104.16.25.128",
+    "ip": "104.20.193.99",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 162.0,
+        "latency": 246.0,
         "loss": 0,
         "available": true,
-        "node_id": "1169"
+        "node_id": "1138"
       },
       "UNICOM": {
-        "latency": 145.0,
+        "latency": 772.0,
         "loss": 0,
         "available": true,
-        "node_id": "1254"
+        "node_id": "1256"
       },
       "MOBILE": {
         "latency": 204.0,
@@ -984,17 +696,113 @@
     }
   },
   {
-    "ip": "104.17.153.141",
+    "ip": "172.66.244.169",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 145.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1132"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1304"
       },
       "UNICOM": {
-        "latency": 198.0,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1254"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "104.19.76.199",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 169.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1311"
+      },
+      "UNICOM": {
+        "latency": 1065.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1279"
+      }
+    }
+  },
+  {
+    "ip": "104.16.246.140",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1311"
+      },
+      "UNICOM": {
+        "latency": 290.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 127.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.21.1.197",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 208.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1138"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1273"
+      },
+      "MOBILE": {
+        "latency": 173.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1294"
+      }
+    }
+  },
+  {
+    "ip": "104.18.17.3",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 309.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1214"
+      },
+      "UNICOM": {
+        "latency": 223.0,
         "loss": 0,
         "available": true,
         "node_id": "1276"
@@ -1003,70 +811,70 @@
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1293"
+        "node_id": "1292"
       }
     }
   },
   {
-    "ip": "172.67.156.86",
+    "ip": "104.20.193.100",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 216.0,
+        "latency": 217.0,
         "loss": 0,
         "available": true,
-        "node_id": "1135"
+        "node_id": "1214"
       },
       "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1268"
-      },
-      "MOBILE": {
-        "latency": 175.0,
+        "latency": 992.0,
         "loss": 0,
         "available": true,
-        "node_id": "1295"
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 186.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
       }
     }
   },
   {
-    "ip": "104.21.48.32",
+    "ip": "104.25.29.31",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 198.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1169"
-      },
-      "UNICOM": {
-        "latency": 448.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1254"
-      },
-      "MOBILE": {
-        "latency": 191.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "104.20.169.205",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 205.0,
+        "latency": 215.0,
         "loss": 0,
         "available": true,
         "node_id": "1312"
       },
       "UNICOM": {
-        "latency": 410.0,
+        "latency": 836.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1254"
+      },
+      "MOBILE": {
+        "latency": 231.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "172.67.81.200",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 225.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1132"
+      },
+      "UNICOM": {
+        "latency": 1255.0,
         "loss": 0,
         "available": true,
         "node_id": "1256"
@@ -1075,24 +883,504 @@
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1293"
+        "node_id": "1283"
       }
     }
   },
   {
-    "ip": "104.21.50.240",
+    "ip": "104.21.240.197",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 227.0,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.25.220.29",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 263.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1138"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1268"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "172.67.114.195",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 254.0,
         "loss": 0,
         "available": true,
         "node_id": "1304"
       },
       "UNICOM": {
-        "latency": 691.0,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": 203.0,
         "loss": 0,
         "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "172.66.188.140",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1279"
+      }
+    }
+  },
+  {
+    "ip": "104.25.81.194",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 264.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1124"
+      },
+      "UNICOM": {
+        "latency": 1145.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": 172.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "104.19.0.234",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 416.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1127"
+      },
+      "UNICOM": {
+        "latency": 873.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1273"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1279"
+      }
+    }
+  },
+  {
+    "ip": "104.18.207.132",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 144.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 263.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
+      },
+      "MOBILE": {
+        "latency": 198.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1242"
+      }
+    }
+  },
+  {
+    "ip": "172.67.132.151",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 220.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1311"
+      },
+      "UNICOM": {
+        "latency": 987.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 261.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1292"
+      }
+    }
+  },
+  {
+    "ip": "104.25.181.59",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 232.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1169"
+      },
+      "UNICOM": {
+        "latency": 877.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1275"
+      },
+      "MOBILE": {
+        "latency": 194.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "104.17.103.187",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 203.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1260"
+      },
+      "MOBILE": {
+        "latency": 124.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.25.74.16",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 229.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 1176.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1256"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1282"
+      }
+    }
+  },
+  {
+    "ip": "104.22.74.205",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 210.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 1052.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1254"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1279"
+      }
+    }
+  },
+  {
+    "ip": "104.24.157.110",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 262.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1304"
+      },
+      "UNICOM": {
+        "latency": 977.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 156.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1249"
+      }
+    }
+  },
+  {
+    "ip": "104.21.135.44",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1169"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1245"
+      }
+    }
+  },
+  {
+    "ip": "104.16.229.110",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1127"
+      },
+      "UNICOM": {
+        "latency": 262.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.19.119.121",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 212.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 1143.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1253"
+      },
+      "MOBILE": {
+        "latency": 212.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "104.18.21.64",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 353.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 207.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 193.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "104.21.154.210",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1227"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1268"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1249"
+      }
+    }
+  },
+  {
+    "ip": "104.24.254.90",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 1123.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
+      },
+      "MOBILE": {
+        "latency": 205.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1292"
+      }
+    }
+  },
+  {
+    "ip": "172.65.97.94",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 225.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1214"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1268"
+      },
+      "MOBILE": {
+        "latency": 183.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1242"
+      }
+    }
+  },
+  {
+    "ip": "172.67.190.237",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 193.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1227"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
         "node_id": "1276"
       },
       "MOBILE": {
@@ -1104,254 +1392,14 @@
     }
   },
   {
-    "ip": "104.21.184.98",
+    "ip": "104.26.3.57",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1168"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1277"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1292"
-      }
-    }
-  },
-  {
-    "ip": "104.17.229.92",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 157.0,
+        "latency": 243.0,
         "loss": 0,
         "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 244.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1273"
-      },
-      "MOBILE": {
-        "latency": 177.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1250"
-      }
-    }
-  },
-  {
-    "ip": "104.16.108.214",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1275"
-      },
-      "MOBILE": {
-        "latency": 131.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1293"
-      }
-    }
-  },
-  {
-    "ip": "104.25.91.210",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 254.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": 492.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "172.66.44.72",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 177.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": 191.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "172.66.42.127",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 158.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": 194.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": 170.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "172.65.42.126",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 165.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1168"
-      },
-      "UNICOM": {
-        "latency": 432.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1254"
-      },
-      "MOBILE": {
-        "latency": 150.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1294"
-      }
-    }
-  },
-  {
-    "ip": "172.65.93.6",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1124"
-      },
-      "UNICOM": {
-        "latency": 451.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": 215.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "104.18.106.56",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 175.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": 213.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1273"
-      },
-      "MOBILE": {
-        "latency": 184.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "104.22.13.184",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 212.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1312"
-      },
-      "UNICOM": {
-        "latency": 430.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": 177.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1242"
-      }
-    }
-  },
-  {
-    "ip": "172.66.244.188",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1138"
+        "node_id": "1132"
       },
       "UNICOM": {
         "latency": Infinity,
@@ -1360,76 +1408,124 @@
         "node_id": "1273"
       },
       "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
+        "latency": 176.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1249"
       }
     }
   },
   {
-    "ip": "104.19.79.50",
+    "ip": "104.19.170.26",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 175.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": 489.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1277"
-      },
-      "MOBILE": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 241.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
+      },
+      "MOBILE": {
+        "latency": 161.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1249"
+      }
+    }
+  },
+  {
+    "ip": "104.22.58.91",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 191.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1132"
+      },
+      "UNICOM": {
+        "latency": 955.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": 290.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1295"
       }
     }
   },
   {
-    "ip": "104.18.203.53",
+    "ip": "104.25.42.248",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 143.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 168.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1293"
-      }
-    }
-  },
-  {
-    "ip": "104.17.124.171",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 195.0,
+        "latency": 290.0,
         "loss": 0,
         "available": true,
         "node_id": "1124"
       },
       "UNICOM": {
-        "latency": 166.0,
+        "latency": 1403.0,
         "loss": 0,
         "available": true,
-        "node_id": "1264"
+        "node_id": "1253"
+      },
+      "MOBILE": {
+        "latency": 175.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.24.169.48",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 225.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1214"
+      },
+      "UNICOM": {
+        "latency": 1194.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
+      },
+      "MOBILE": {
+        "latency": 197.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1295"
+      }
+    }
+  },
+  {
+    "ip": "104.21.54.13",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 228.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1138"
+      },
+      "UNICOM": {
+        "latency": 1258.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1276"
       },
       "MOBILE": {
         "latency": Infinity,
@@ -1440,215 +1536,47 @@
     }
   },
   {
-    "ip": "104.21.15.208",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 154.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 548.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1273"
-      },
-      "MOBILE": {
-        "latency": 213.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1293"
-      }
-    }
-  },
-  {
-    "ip": "104.21.177.121",
+    "ip": "172.66.14.240",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1311"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1275"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "104.21.103.213",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 166.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1129"
-      },
-      "UNICOM": {
-        "latency": 687.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1275"
-      },
-      "MOBILE": {
-        "latency": 178.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1249"
-      }
-    }
-  },
-  {
-    "ip": "172.67.66.49",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 210.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1312"
-      },
-      "UNICOM": {
-        "latency": 433.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1277"
-      },
-      "MOBILE": {
-        "latency": 191.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1283"
-      }
-    }
-  },
-  {
-    "ip": "104.25.176.244",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 218.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": 185.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1249"
-      }
-    }
-  },
-  {
-    "ip": "104.20.204.100",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 225.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 486.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1276"
-      },
-      "MOBILE": {
-        "latency": 214.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "104.18.108.126",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 171.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1311"
-      },
-      "UNICOM": {
-        "latency": 267.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1301"
-      },
-      "MOBILE": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1249"
-      }
-    }
-  },
-  {
-    "ip": "104.20.203.217",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 244.0,
-        "loss": 0,
-        "available": true,
         "node_id": "1127"
       },
       "UNICOM": {
-        "latency": 516.0,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1294"
+      }
+    }
+  },
+  {
+    "ip": "104.25.184.125",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 988.0,
         "loss": 0,
         "available": true,
         "node_id": "1226"
       },
       "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.27.2.9",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 237.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1304"
-      },
-      "UNICOM": {
-        "latency": 405.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 221.0,
+        "latency": 211.0,
         "loss": 0,
         "available": true,
         "node_id": "1282"
@@ -1656,47 +1584,71 @@
     }
   },
   {
-    "ip": "104.24.113.144",
+    "ip": "104.20.79.91",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1311"
+        "latency": 233.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1214"
       },
       "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1260"
+        "latency": 1195.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
       },
       "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
+        "latency": 169.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1290"
       }
     }
   },
   {
-    "ip": "104.22.32.209",
+    "ip": "104.21.13.221",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 241.0,
+        "latency": 185.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1268"
+      },
+      "MOBILE": {
+        "latency": 212.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1282"
+      }
+    }
+  },
+  {
+    "ip": "104.25.172.190",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 226.0,
         "loss": 0,
         "available": true,
         "node_id": "1311"
       },
       "UNICOM": {
-        "latency": 486.0,
+        "latency": 1117.0,
         "loss": 0,
         "available": true,
-        "node_id": "1277"
+        "node_id": "1253"
       },
       "MOBILE": {
-        "latency": 172.0,
+        "latency": 179.0,
         "loss": 0,
         "available": true,
         "node_id": "1242"
@@ -1704,23 +1656,47 @@
     }
   },
   {
-    "ip": "104.20.54.219",
+    "ip": "104.24.240.244",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 226.0,
+        "latency": 269.0,
         "loss": 0,
         "available": true,
-        "node_id": "1214"
+        "node_id": "1138"
       },
       "UNICOM": {
-        "latency": 483.0,
+        "latency": 1014.0,
         "loss": 0,
         "available": true,
-        "node_id": "1266"
+        "node_id": "1276"
       },
       "MOBILE": {
-        "latency": 199.0,
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1294"
+      }
+    }
+  },
+  {
+    "ip": "104.25.50.198",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 218.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1227"
+      },
+      "UNICOM": {
+        "latency": 793.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": 208.0,
         "loss": 0,
         "available": true,
         "node_id": "1293"
@@ -1728,11 +1704,11 @@
     }
   },
   {
-    "ip": "104.20.244.250",
+    "ip": "104.17.178.34",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 242.0,
+        "latency": 178.0,
         "loss": 0,
         "available": true,
         "node_id": "1138"
@@ -1741,10 +1717,10 @@
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1266"
+        "node_id": "1301"
       },
       "MOBILE": {
-        "latency": 181.0,
+        "latency": 137.0,
         "loss": 0,
         "available": true,
         "node_id": "1287"
@@ -1752,31 +1728,31 @@
     }
   },
   {
-    "ip": "104.24.49.127",
+    "ip": "104.19.190.241",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 283.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1124"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1311"
       },
       "UNICOM": {
-        "latency": 496.0,
+        "latency": 259.0,
         "loss": 0,
         "available": true,
-        "node_id": "1256"
+        "node_id": "1266"
       },
       "MOBILE": {
-        "latency": 185.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1249"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1293"
       }
     }
   },
   {
-    "ip": "104.16.120.1",
+    "ip": "172.65.154.240",
     "status": "ok",
     "tests": {
       "TELECOM": {
@@ -1786,58 +1762,10 @@
         "node_id": "1169"
       },
       "UNICOM": {
-        "latency": 218.0,
+        "latency": 1473.0,
         "loss": 0,
         "available": true,
-        "node_id": "1301"
-      },
-      "MOBILE": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "104.17.14.116",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 161.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": 161.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1276"
-      },
-      "MOBILE": {
-        "latency": 183.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1292"
-      }
-    }
-  },
-  {
-    "ip": "104.27.108.239",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1304"
-      },
-      "UNICOM": {
-        "latency": 633.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
+        "node_id": "1278"
       },
       "MOBILE": {
         "latency": 213.0,
@@ -1848,79 +1776,55 @@
     }
   },
   {
-    "ip": "172.66.150.91",
+    "ip": "172.66.167.139",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": 257.0,
+        "latency": 271.0,
         "loss": 0,
         "available": true,
-        "node_id": "1168"
+        "node_id": "1124"
       },
       "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
+        "latency": 1606.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": 210.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "104.24.81.157",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 260.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1304"
+      },
+      "UNICOM": {
+        "latency": 848.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1253"
       },
       "MOBILE": {
-        "latency": 190.0,
+        "latency": 179.0,
         "loss": 0,
         "available": true,
-        "node_id": "1295"
+        "node_id": "1245"
       }
     }
   },
   {
-    "ip": "104.17.174.9",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 188.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1276"
-      },
-      "MOBILE": {
-        "latency": 151.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1292"
-      }
-    }
-  },
-  {
-    "ip": "104.20.99.102",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 197.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 336.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
-        "latency": 211.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1283"
-      }
-    }
-  },
-  {
-    "ip": "104.25.3.154",
+    "ip": "172.66.63.234",
     "status": "ok",
     "tests": {
       "TELECOM": {
@@ -1930,45 +1834,21 @@
         "node_id": "1132"
       },
       "UNICOM": {
-        "latency": 373.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1256"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1276"
       },
       "MOBILE": {
-        "latency": 197.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1242"
       }
     }
   },
   {
-    "ip": "104.16.95.129",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 152.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 201.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1275"
-      },
-      "MOBILE": {
-        "latency": 172.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "104.24.201.141",
+    "ip": "104.24.141.99",
     "status": "ok",
     "tests": {
       "TELECOM": {
@@ -1978,58 +1858,370 @@
         "node_id": "1168"
       },
       "UNICOM": {
-        "latency": 478.0,
+        "latency": 897.0,
         "loss": 0,
         "available": true,
+        "node_id": "1254"
+      },
+      "MOBILE": {
+        "latency": 216.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1282"
+      }
+    }
+  },
+  {
+    "ip": "104.20.151.117",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 247.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1135"
+      },
+      "UNICOM": {
+        "latency": 1083.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1275"
+      },
+      "MOBILE": {
+        "latency": 197.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1242"
+      }
+    }
+  },
+  {
+    "ip": "104.25.215.24",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 198.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 1573.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1301"
+      },
+      "MOBILE": {
+        "latency": 176.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1294"
+      }
+    }
+  },
+  {
+    "ip": "104.21.168.212",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1138"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1260"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "172.66.121.164",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1304"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
         "node_id": "1264"
       },
       "MOBILE": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1279"
+        "node_id": "1250"
       }
     }
   },
   {
-    "ip": "104.27.170.28",
+    "ip": "172.66.228.213",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1135"
+        "node_id": "1132"
       },
       "UNICOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1277"
+        "node_id": "1260"
       },
       "MOBILE": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1279"
+        "node_id": "1295"
       }
     }
   },
   {
-    "ip": "172.66.63.255",
+    "ip": "104.19.98.242",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": 1368.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1301"
+      },
+      "MOBILE": {
+        "latency": 192.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1250"
+      }
+    }
+  },
+  {
+    "ip": "104.19.200.0",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 296.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1124"
+      },
+      "UNICOM": {
+        "latency": 237.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1260"
+      },
+      "MOBILE": {
+        "latency": 212.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "172.67.93.50",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 249.0,
+        "loss": 0,
+        "available": true,
         "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 1559.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1260"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.18.190.239",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 248.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1227"
+      },
+      "UNICOM": {
+        "latency": 269.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": 204.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1282"
+      }
+    }
+  },
+  {
+    "ip": "104.24.71.141",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 226.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1227"
       },
       "UNICOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1273"
+        "node_id": "1254"
+      },
+      "MOBILE": {
+        "latency": 213.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1282"
+      }
+    }
+  },
+  {
+    "ip": "104.16.232.245",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 216.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1127"
+      },
+      "UNICOM": {
+        "latency": 191.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1256"
+      },
+      "MOBILE": {
+        "latency": 209.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1287"
+      }
+    }
+  },
+  {
+    "ip": "104.27.88.94",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 260.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 1468.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 180.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.19.168.106",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 170.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1127"
+      },
+      "UNICOM": {
+        "latency": 266.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1275"
+      },
+      "MOBILE": {
+        "latency": 183.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "172.67.76.122",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 206.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1227"
+      },
+      "UNICOM": {
+        "latency": 1410.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": 192.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "104.20.32.97",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 245.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": 1084.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1253"
       },
       "MOBILE": {
         "latency": Infinity,
@@ -2040,7 +2232,271 @@
     }
   },
   {
-    "ip": "172.66.135.154",
+    "ip": "172.66.28.251",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "104.18.229.100",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 223.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1132"
+      },
+      "UNICOM": {
+        "latency": 214.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1256"
+      },
+      "MOBILE": {
+        "latency": 212.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1292"
+      }
+    }
+  },
+  {
+    "ip": "172.67.28.8",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1214"
+      },
+      "UNICOM": {
+        "latency": 976.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": 178.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "104.25.164.171",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 1395.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 186.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1249"
+      }
+    }
+  },
+  {
+    "ip": "104.21.235.192",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 169.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1169"
+      },
+      "UNICOM": {
+        "latency": 331.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1273"
+      },
+      "MOBILE": {
+        "latency": 162.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1294"
+      }
+    }
+  },
+  {
+    "ip": "172.67.192.249",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1124"
+      },
+      "UNICOM": {
+        "latency": 1306.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1277"
+      },
+      "MOBILE": {
+        "latency": 194.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "104.21.80.33",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1169"
+      },
+      "UNICOM": {
+        "latency": 1316.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 369.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1294"
+      }
+    }
+  },
+  {
+    "ip": "172.65.138.189",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 251.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1311"
+      },
+      "UNICOM": {
+        "latency": 1373.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 182.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1245"
+      }
+    }
+  },
+  {
+    "ip": "172.67.176.104",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 173.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 1143.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 168.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "172.67.223.207",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 180.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": 947.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 232.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1290"
+      }
+    }
+  },
+  {
+    "ip": "104.17.250.179",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 186.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1304"
+      },
+      "UNICOM": {
+        "latency": 220.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": 194.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "172.65.92.210",
     "status": "ok",
     "tests": {
       "TELECOM": {
@@ -2050,13 +2506,85 @@
         "node_id": "1129"
       },
       "UNICOM": {
-        "latency": 440.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1301"
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1278"
       },
       "MOBILE": {
-        "latency": 194.0,
+        "latency": 162.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.22.28.67",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 162.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 1357.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1275"
+      },
+      "MOBILE": {
+        "latency": 201.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1245"
+      }
+    }
+  },
+  {
+    "ip": "104.18.87.174",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 368.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1124"
+      },
+      "UNICOM": {
+        "latency": 262.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 122.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1249"
+      }
+    }
+  },
+  {
+    "ip": "104.20.79.101",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 211.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1312"
+      },
+      "UNICOM": {
+        "latency": 931.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
+      },
+      "MOBILE": {
+        "latency": 197.0,
         "loss": 0,
         "available": true,
         "node_id": "1295"
@@ -2064,14 +2592,110 @@
     }
   },
   {
-    "ip": "104.16.3.65",
+    "ip": "104.20.134.106",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 227.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1132"
+      },
+      "UNICOM": {
+        "latency": 1653.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1266"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1279"
+      }
+    }
+  },
+  {
+    "ip": "172.67.85.8",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 224.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1310"
+      },
+      "UNICOM": {
+        "latency": 1192.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1260"
+      },
+      "MOBILE": {
+        "latency": 185.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1287"
+      }
+    }
+  },
+  {
+    "ip": "172.67.159.176",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": 158.0,
         "loss": 0,
         "available": true,
-        "node_id": "1135"
+        "node_id": "1132"
+      },
+      "UNICOM": {
+        "latency": 1035.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1237"
+      }
+    }
+  },
+  {
+    "ip": "104.21.43.85",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 163.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1168"
+      },
+      "UNICOM": {
+        "latency": 1598.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1250"
+      }
+    }
+  },
+  {
+    "ip": "104.24.60.113",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 238.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1168"
       },
       "UNICOM": {
         "latency": Infinity,
@@ -2080,55 +2704,31 @@
         "node_id": "1268"
       },
       "MOBILE": {
+        "latency": 197.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1295"
+      }
+    }
+  },
+  {
+    "ip": "172.67.175.66",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 172.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1127"
+      },
+      "UNICOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.18.90.126",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 156.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 200.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
+        "node_id": "1254"
       },
       "MOBILE": {
-        "latency": 154.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1292"
-      }
-    }
-  },
-  {
-    "ip": "104.17.73.241",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 169.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 199.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 201.0,
+        "latency": 191.0,
         "loss": 0,
         "available": true,
         "node_id": "1287"
@@ -2136,566 +2736,134 @@
     }
   },
   {
-    "ip": "104.25.6.221",
+    "ip": "104.16.133.58",
     "status": "ok",
     "tests": {
       "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": 561.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 203.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1283"
-      }
-    }
-  },
-  {
-    "ip": "104.20.131.117",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1312"
-      },
-      "UNICOM": {
-        "latency": 363.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": 218.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.16.146.168",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 152.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1169"
-      },
-      "UNICOM": {
-        "latency": 261.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1301"
-      },
-      "MOBILE": {
-        "latency": 112.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.18.243.52",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 215.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": 169.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1242"
-      }
-    }
-  },
-  {
-    "ip": "104.17.18.204",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 159.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": 183.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1275"
-      },
-      "MOBILE": {
-        "latency": 134.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.18.184.74",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 144.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 205.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1290"
-      }
-    }
-  },
-  {
-    "ip": "104.25.176.67",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": 426.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 190.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1283"
-      }
-    }
-  },
-  {
-    "ip": "172.65.47.29",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 228.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1311"
-      },
-      "UNICOM": {
-        "latency": 388.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
-        "latency": 157.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1242"
-      }
-    }
-  },
-  {
-    "ip": "104.27.157.140",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1256"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1279"
-      }
-    }
-  },
-  {
-    "ip": "172.66.115.76",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1273"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1250"
-      }
-    }
-  },
-  {
-    "ip": "172.65.130.252",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 219.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1168"
-      },
-      "UNICOM": {
-        "latency": 403.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1276"
-      },
-      "MOBILE": {
-        "latency": 171.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1242"
-      }
-    }
-  },
-  {
-    "ip": "104.25.165.47",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1304"
-      },
-      "UNICOM": {
-        "latency": 614.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 205.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1292"
-      }
-    }
-  },
-  {
-    "ip": "172.67.160.71",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 164.0,
+        "latency": 189.0,
         "loss": 0,
         "available": true,
         "node_id": "1129"
       },
       "UNICOM": {
-        "latency": 582.0,
+        "latency": 237.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1278"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1242"
+      }
+    }
+  },
+  {
+    "ip": "104.24.142.161",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 246.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1169"
+      },
+      "UNICOM": {
+        "latency": 1020.0,
         "loss": 0,
         "available": true,
         "node_id": "1264"
       },
       "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1293"
-      }
-    }
-  },
-  {
-    "ip": "104.19.235.208",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 141.0,
+        "latency": 212.0,
         "loss": 0,
         "available": true,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 176.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1254"
-      },
-      "MOBILE": {
-        "latency": 236.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1245"
-      }
-    }
-  },
-  {
-    "ip": "104.25.13.69",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 261.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1304"
-      },
-      "UNICOM": {
-        "latency": 530.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 185.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "104.18.225.37",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 187.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1124"
-      },
-      "UNICOM": {
-        "latency": 168.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 66.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1283"
-      }
-    }
-  },
-  {
-    "ip": "104.19.75.215",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 424.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1279"
-      }
-    }
-  },
-  {
-    "ip": "172.65.9.139",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 233.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1138"
-      },
-      "UNICOM": {
-        "latency": 169.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 181.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "104.18.145.25",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 298.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1266"
-      },
-      "MOBILE": {
-        "latency": 189.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "104.18.204.186",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 142.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 169.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1256"
-      },
-      "MOBILE": {
-        "latency": 184.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1250"
-      }
-    }
-  },
-  {
-    "ip": "104.18.101.66",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 168.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1312"
-      },
-      "UNICOM": {
-        "latency": 169.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": 192.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "104.17.100.54",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 162.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1311"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1253"
-      },
-      "MOBILE": {
-        "latency": 113.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1294"
-      }
-    }
-  },
-  {
-    "ip": "104.17.223.140",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 165.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1135"
-      },
-      "UNICOM": {
-        "latency": 183.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
         "node_id": "1282"
       }
     }
   },
   {
-    "ip": "172.66.79.21",
+    "ip": "104.20.159.174",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 239.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1135"
+      },
+      "UNICOM": {
+        "latency": 1575.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1226"
+      },
+      "MOBILE": {
+        "latency": 207.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1293"
+      }
+    }
+  },
+  {
+    "ip": "104.19.77.183",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 331.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1129"
+      },
+      "UNICOM": {
+        "latency": 1586.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1253"
+      },
+      "MOBILE": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1283"
+      }
+    }
+  },
+  {
+    "ip": "1.1.1.19",
+    "status": "ok",
+    "tests": {
+      "TELECOM": {
+        "latency": 171.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1135"
+      },
+      "UNICOM": {
+        "latency": Infinity,
+        "loss": 100,
+        "available": false,
+        "node_id": "1264"
+      },
+      "MOBILE": {
+        "latency": 79.0,
+        "loss": 0,
+        "available": true,
+        "node_id": "1242"
+      }
+    }
+  },
+  {
+    "ip": "104.27.174.81",
     "status": "ok",
     "tests": {
       "TELECOM": {
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1138"
+        "node_id": "1169"
       },
       "UNICOM": {
         "latency": Infinity,
@@ -2707,175 +2875,7 @@
         "latency": Infinity,
         "loss": 100,
         "available": false,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "104.18.222.157",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 154.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1310"
-      },
-      "UNICOM": {
-        "latency": 233.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1273"
-      },
-      "MOBILE": {
-        "latency": 193.0,
-        "loss": 0,
-        "available": true,
         "node_id": "1237"
-      }
-    }
-  },
-  {
-    "ip": "104.17.12.81",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 166.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1132"
-      },
-      "UNICOM": {
-        "latency": 174.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1264"
-      },
-      "MOBILE": {
-        "latency": 189.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1287"
-      }
-    }
-  },
-  {
-    "ip": "172.66.101.62",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1214"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1278"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1282"
-      }
-    }
-  },
-  {
-    "ip": "104.18.33.176",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 181.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 189.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": 146.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1293"
-      }
-    }
-  },
-  {
-    "ip": "104.16.194.120",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 193.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1124"
-      },
-      "UNICOM": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1226"
-      },
-      "MOBILE": {
-        "latency": 115.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1294"
-      }
-    }
-  },
-  {
-    "ip": "172.66.140.141",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 235.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1227"
-      },
-      "UNICOM": {
-        "latency": 717.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": 196.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1295"
-      }
-    }
-  },
-  {
-    "ip": "172.65.174.9",
-    "status": "ok",
-    "tests": {
-      "TELECOM": {
-        "latency": 248.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1127"
-      },
-      "UNICOM": {
-        "latency": 518.0,
-        "loss": 0,
-        "available": true,
-        "node_id": "1260"
-      },
-      "MOBILE": {
-        "latency": Infinity,
-        "loss": 100,
-        "available": false,
-        "node_id": "1279"
       }
     }
   }
