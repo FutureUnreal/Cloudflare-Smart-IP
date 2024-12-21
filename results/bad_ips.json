@@ -61716,14 +61716,17 @@
   },
   "104.16.182.172": {
     "fails": 0,
-    "tests": 1,
+    "tests": 2,
     "last_latencies": [
       144.0,
       194.0,
-      184.0
+      184.0,
+      Infinity,
+      162.0,
+      186.0
     ],
     "first_seen": "2024-12-09T23:46:24.540772",
-    "last_seen": "2024-12-09T23:46:24.540777"
+    "last_seen": "2024-12-21T11:20:49.974356"
   },
   "104.25.74.234": {
     "fails": 0,
@@ -71966,15 +71969,18 @@
     "last_seen": "2024-12-10T23:37:25.127205"
   },
   "104.16.77.112": {
-    "fails": 0,
-    "tests": 1,
+    "fails": 1,
+    "tests": 2,
     "last_latencies": [
       154.0,
       191.0,
-      218.0
+      218.0,
+      Infinity,
+      Infinity,
+      217.0
     ],
     "first_seen": "2024-12-10T23:37:25.127679",
-    "last_seen": "2024-12-10T23:37:25.127683"
+    "last_seen": "2024-12-21T11:20:49.978174"
   },
   "104.17.19.65": {
     "fails": 0,
@@ -89645,15 +89651,18 @@
     "last_seen": "2024-12-12T23:31:14.038058"
   },
   "104.16.78.55": {
-    "fails": 0,
-    "tests": 1,
+    "fails": 1,
+    "tests": 2,
     "last_latencies": [
       173.0,
       172.0,
+      Infinity,
+      270.0,
+      Infinity,
       Infinity
     ],
     "first_seen": "2024-12-12T23:31:14.038151",
-    "last_seen": "2024-12-12T23:31:14.038153"
+    "last_seen": "2024-12-21T11:20:49.974621"
   },
   "104.19.217.160": {
     "fails": 0,
@@ -160918,5 +160927,1732 @@
     ],
     "first_seen": "2024-12-21T07:34:41.491304",
     "last_seen": "2024-12-21T07:34:41.491306"
+  },
+  "104.27.54.213": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      634.0,
+      Infinity,
+      205.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.971864",
+    "last_seen": "2024-12-21T11:20:49.971875"
+  },
+  "104.24.41.153": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      606.0,
+      195.0,
+      205.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972005",
+    "last_seen": "2024-12-21T11:20:49.972007"
+  },
+  "104.27.42.194": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      642.0,
+      206.0,
+      173.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972302",
+    "last_seen": "2024-12-21T11:20:49.972307"
+  },
+  "104.17.230.30": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      177.0,
+      122.0,
+      202.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972545",
+    "last_seen": "2024-12-21T11:20:49.972549"
+  },
+  "172.66.182.21": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.972744",
+    "last_seen": "2024-12-21T11:20:49.972748"
+  },
+  "104.27.83.38": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      617.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.972757",
+    "last_seen": "2024-12-21T11:20:49.972759"
+  },
+  "104.22.38.195": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      501.0,
+      Infinity,
+      202.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972782",
+    "last_seen": "2024-12-21T11:20:49.972784"
+  },
+  "104.17.22.78": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      165.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.972860",
+    "last_seen": "2024-12-21T11:20:49.972862"
+  },
+  "104.17.230.221": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      186.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972878",
+    "last_seen": "2024-12-21T11:20:49.972879"
+  },
+  "172.66.5.221": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.972891",
+    "last_seen": "2024-12-21T11:20:49.972892"
+  },
+  "104.17.74.108": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      178.0,
+      Infinity,
+      218.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972897",
+    "last_seen": "2024-12-21T11:20:49.972898"
+  },
+  "104.17.21.181": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      128.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972946",
+    "last_seen": "2024-12-21T11:20:49.972947"
+  },
+  "104.25.198.103": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      632.0,
+      204.0,
+      186.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.972962",
+    "last_seen": "2024-12-21T11:20:49.972963"
+  },
+  "104.21.28.195": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      194.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973112",
+    "last_seen": "2024-12-21T11:20:49.973116"
+  },
+  "104.24.69.245": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973143",
+    "last_seen": "2024-12-21T11:20:49.973145"
+  },
+  "104.27.182.182": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973152",
+    "last_seen": "2024-12-21T11:20:49.973154"
+  },
+  "172.67.212.140": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      210.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973161",
+    "last_seen": "2024-12-21T11:20:49.973163"
+  },
+  "104.19.103.226": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      198.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973182",
+    "last_seen": "2024-12-21T11:20:49.973185"
+  },
+  "172.65.208.75": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      185.0,
+      201.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973206",
+    "last_seen": "2024-12-21T11:20:49.973208"
+  },
+  "104.27.69.210": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      611.0,
+      186.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973280",
+    "last_seen": "2024-12-21T11:20:49.973283"
+  },
+  "172.65.50.243": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      199.0,
+      Infinity,
+      179.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973339",
+    "last_seen": "2024-12-21T11:20:49.973341"
+  },
+  "104.21.54.106": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      230.0,
+      181.0,
+      204.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973395",
+    "last_seen": "2024-12-21T11:20:49.973398"
+  },
+  "104.18.45.224": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      186.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973546",
+    "last_seen": "2024-12-21T11:20:49.973549"
+  },
+  "104.25.234.19": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      186.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973565",
+    "last_seen": "2024-12-21T11:20:49.973567"
+  },
+  "172.66.13.151": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973591",
+    "last_seen": "2024-12-21T11:20:49.973594"
+  },
+  "172.67.246.32": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      204.0,
+      Infinity,
+      206.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973601",
+    "last_seen": "2024-12-21T11:20:49.973603"
+  },
+  "104.19.127.9": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      180.0,
+      Infinity,
+      178.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973678",
+    "last_seen": "2024-12-21T11:20:49.973681"
+  },
+  "104.21.211.180": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      165.0,
+      176.0,
+      191.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973734",
+    "last_seen": "2024-12-21T11:20:49.973736"
+  },
+  "104.25.222.31": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      443.0,
+      Infinity,
+      193.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.973866",
+    "last_seen": "2024-12-21T11:20:49.973869"
+  },
+  "104.18.58.184": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      222.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973952",
+    "last_seen": "2024-12-21T11:20:49.973955"
+  },
+  "104.27.60.66": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      381.0,
+      162.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.973976",
+    "last_seen": "2024-12-21T11:20:49.973978"
+  },
+  "104.27.99.233": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      628.0,
+      153.0,
+      192.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.974031",
+    "last_seen": "2024-12-21T11:20:49.974032"
+  },
+  "104.27.7.44": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      188.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.974165",
+    "last_seen": "2024-12-21T11:20:49.974169"
+  },
+  "104.24.97.210": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.974195",
+    "last_seen": "2024-12-21T11:20:49.974198"
+  },
+  "104.20.234.222": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      281.0,
+      Infinity,
+      190.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.974205",
+    "last_seen": "2024-12-21T11:20:49.974211"
+  },
+  "172.65.23.86": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      178.0,
+      210.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.974305",
+    "last_seen": "2024-12-21T11:20:49.974307"
+  },
+  "104.17.25.131": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.974585",
+    "last_seen": "2024-12-21T11:20:49.974588"
+  },
+  "104.20.232.74": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      180.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.974597",
+    "last_seen": "2024-12-21T11:20:49.974599"
+  },
+  "104.18.181.94": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      143.0,
+      193.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.974738",
+    "last_seen": "2024-12-21T11:20:49.974741"
+  },
+  "104.17.120.167": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      144.0,
+      195.0,
+      136.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.974831",
+    "last_seen": "2024-12-21T11:20:49.974834"
+  },
+  "104.24.32.154": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      183.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.974995",
+    "last_seen": "2024-12-21T11:20:49.974999"
+  },
+  "104.18.72.230": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      146.0,
+      Infinity,
+      203.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975023",
+    "last_seen": "2024-12-21T11:20:49.975026"
+  },
+  "104.17.188.18": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      203.0,
+      124.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975105",
+    "last_seen": "2024-12-21T11:20:49.975107"
+  },
+  "104.27.134.14": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975156",
+    "last_seen": "2024-12-21T11:20:49.975158"
+  },
+  "104.18.177.68": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      146.0,
+      Infinity,
+      209.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975163",
+    "last_seen": "2024-12-21T11:20:49.975165"
+  },
+  "104.27.134.111": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975226",
+    "last_seen": "2024-12-21T11:20:49.975228"
+  },
+  "104.20.16.23": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      641.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975235",
+    "last_seen": "2024-12-21T11:20:49.975237"
+  },
+  "104.16.100.97": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      234.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975250",
+    "last_seen": "2024-12-21T11:20:49.975252"
+  },
+  "104.27.72.204": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      435.0,
+      181.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975283",
+    "last_seen": "2024-12-21T11:20:49.975286"
+  },
+  "104.20.71.31": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975337",
+    "last_seen": "2024-12-21T11:20:49.975339"
+  },
+  "104.20.84.213": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      264.0,
+      Infinity,
+      210.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975343",
+    "last_seen": "2024-12-21T11:20:49.975345"
+  },
+  "104.22.10.198": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      231.0,
+      Infinity,
+      186.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975389",
+    "last_seen": "2024-12-21T11:20:49.975391"
+  },
+  "104.21.143.239": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975439",
+    "last_seen": "2024-12-21T11:20:49.975441"
+  },
+  "104.25.93.149": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      256.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975446",
+    "last_seen": "2024-12-21T11:20:49.975447"
+  },
+  "104.27.122.145": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      511.0,
+      159.0,
+      201.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975460",
+    "last_seen": "2024-12-21T11:20:49.975461"
+  },
+  "172.65.212.191": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      238.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975605",
+    "last_seen": "2024-12-21T11:20:49.975609"
+  },
+  "104.16.80.165": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      184.0,
+      208.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975636",
+    "last_seen": "2024-12-21T11:20:49.975638"
+  },
+  "172.66.124.240": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.975720",
+    "last_seen": "2024-12-21T11:20:49.975723"
+  },
+  "104.25.48.112": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      345.0,
+      174.0,
+      184.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975730",
+    "last_seen": "2024-12-21T11:20:49.975732"
+  },
+  "104.20.181.135": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      496.0,
+      160.0,
+      172.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.975877",
+    "last_seen": "2024-12-21T11:20:49.975881"
+  },
+  "104.24.37.3": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      190.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976070",
+    "last_seen": "2024-12-21T11:20:49.976074"
+  },
+  "172.65.188.181": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      187.0,
+      133.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976099",
+    "last_seen": "2024-12-21T11:20:49.976101"
+  },
+  "172.67.129.251": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      205.0,
+      Infinity,
+      222.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976177",
+    "last_seen": "2024-12-21T11:20:49.976179"
+  },
+  "104.21.192.41": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      148.0,
+      184.0,
+      194.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976236",
+    "last_seen": "2024-12-21T11:20:49.976238"
+  },
+  "104.17.101.40": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      200.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976407",
+    "last_seen": "2024-12-21T11:20:49.976412"
+  },
+  "104.18.53.68": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      178.0,
+      184.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976438",
+    "last_seen": "2024-12-21T11:20:49.976440"
+  },
+  "104.24.85.196": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      216.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976516",
+    "last_seen": "2024-12-21T11:20:49.976518"
+  },
+  "104.27.129.45": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976538",
+    "last_seen": "2024-12-21T11:20:49.976540"
+  },
+  "104.25.40.125": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      595.0,
+      194.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976544",
+    "last_seen": "2024-12-21T11:20:49.976546"
+  },
+  "172.65.249.37": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      168.0,
+      Infinity,
+      204.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976592",
+    "last_seen": "2024-12-21T11:20:49.976594"
+  },
+  "104.18.190.203": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      177.0,
+      189.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976642",
+    "last_seen": "2024-12-21T11:20:49.976643"
+  },
+  "104.16.188.190": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      164.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976690",
+    "last_seen": "2024-12-21T11:20:49.976692"
+  },
+  "172.67.61.56": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      230.0,
+      Infinity,
+      173.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976705",
+    "last_seen": "2024-12-21T11:20:49.976707"
+  },
+  "104.22.25.75": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      175.0,
+      Infinity,
+      220.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976750",
+    "last_seen": "2024-12-21T11:20:49.976751"
+  },
+  "104.19.193.232": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      155.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976794",
+    "last_seen": "2024-12-21T11:20:49.976796"
+  },
+  "104.18.59.178": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      166.0,
+      Infinity,
+      257.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976811",
+    "last_seen": "2024-12-21T11:20:49.976813"
+  },
+  "104.21.136.18": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976855",
+    "last_seen": "2024-12-21T11:20:49.976856"
+  },
+  "104.20.6.127": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      613.0,
+      221.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.976861",
+    "last_seen": "2024-12-21T11:20:49.976862"
+  },
+  "104.17.112.3": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      245.0,
+      Infinity,
+      114.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976908",
+    "last_seen": "2024-12-21T11:20:49.976909"
+  },
+  "104.20.253.242": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      187.0,
+      178.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976952",
+    "last_seen": "2024-12-21T11:20:49.976954"
+  },
+  "104.18.246.132": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      154.0,
+      209.0,
+      196.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.976999",
+    "last_seen": "2024-12-21T11:20:49.977001"
+  },
+  "172.66.30.43": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977134",
+    "last_seen": "2024-12-21T11:20:49.977138"
+  },
+  "104.24.104.243": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977148",
+    "last_seen": "2024-12-21T11:20:49.977151"
+  },
+  "104.18.171.167": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      147.0,
+      Infinity,
+      70.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977158",
+    "last_seen": "2024-12-21T11:20:49.977160"
+  },
+  "104.25.248.86": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977242",
+    "last_seen": "2024-12-21T11:20:49.977246"
+  },
+  "104.27.156.154": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977254",
+    "last_seen": "2024-12-21T11:20:49.977255"
+  },
+  "104.24.175.111": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      274.0,
+      186.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977259",
+    "last_seen": "2024-12-21T11:20:49.977260"
+  },
+  "104.17.83.190": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      172.0,
+      151.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977334",
+    "last_seen": "2024-12-21T11:20:49.977336"
+  },
+  "104.24.10.32": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      539.0,
+      161.0,
+      204.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977387",
+    "last_seen": "2024-12-21T11:20:49.977388"
+  },
+  "104.17.108.185": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      191.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.977532",
+    "last_seen": "2024-12-21T11:20:49.977536"
+  },
+  "104.24.168.12": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      170.0,
+      191.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977562",
+    "last_seen": "2024-12-21T11:20:49.977564"
+  },
+  "104.24.135.239": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      277.0,
+      Infinity,
+      203.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977639",
+    "last_seen": "2024-12-21T11:20:49.977642"
+  },
+  "172.66.144.84": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      192.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977692",
+    "last_seen": "2024-12-21T11:20:49.977694"
+  },
+  "104.16.172.74": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      212.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977711",
+    "last_seen": "2024-12-21T11:20:49.977712"
+  },
+  "104.19.139.72": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      172.0,
+      165.0,
+      195.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977723",
+    "last_seen": "2024-12-21T11:20:49.977725"
+  },
+  "172.65.152.212": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      562.0,
+      Infinity,
+      185.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977855",
+    "last_seen": "2024-12-21T11:20:49.977859"
+  },
+  "104.20.85.3": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      190.0,
+      193.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.977939",
+    "last_seen": "2024-12-21T11:20:49.977941"
+  },
+  "172.66.41.99": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      174.0,
+      226.0,
+      188.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978002",
+    "last_seen": "2024-12-21T11:20:49.978003"
+  },
+  "104.20.23.222": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      541.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.978142",
+    "last_seen": "2024-12-21T11:20:49.978146"
+  },
+  "104.21.152.158": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.978336",
+    "last_seen": "2024-12-21T11:20:49.978340"
+  },
+  "104.18.254.250": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.978350",
+    "last_seen": "2024-12-21T11:20:49.978353"
+  },
+  "172.67.124.149": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      635.0,
+      155.0,
+      183.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978360",
+    "last_seen": "2024-12-21T11:20:49.978362"
+  },
+  "104.19.139.80": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      180.0,
+      200.0,
+      250.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978547",
+    "last_seen": "2024-12-21T11:20:49.978550"
+  },
+  "104.20.42.78": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      187.0,
+      196.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978742",
+    "last_seen": "2024-12-21T11:20:49.978746"
+  },
+  "172.65.243.38": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      172.0,
+      Infinity,
+      196.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978830",
+    "last_seen": "2024-12-21T11:20:49.978833"
+  },
+  "104.17.213.212": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      158.0,
+      183.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.978887",
+    "last_seen": "2024-12-21T11:20:49.978888"
+  },
+  "172.65.75.194": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      158.0,
+      191.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978934",
+    "last_seen": "2024-12-21T11:20:49.978936"
+  },
+  "172.67.231.138": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      165.0,
+      190.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.978979",
+    "last_seen": "2024-12-21T11:20:49.978980"
+  },
+  "172.67.124.68": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      194.0,
+      Infinity,
+      192.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979027",
+    "last_seen": "2024-12-21T11:20:49.979029"
+  },
+  "104.25.57.5": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      193.0,
+      194.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979075",
+    "last_seen": "2024-12-21T11:20:49.979077"
+  },
+  "172.65.212.62": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      163.0,
+      155.0,
+      251.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979120",
+    "last_seen": "2024-12-21T11:20:49.979121"
+  },
+  "104.20.191.240": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      438.0,
+      224.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.979308",
+    "last_seen": "2024-12-21T11:20:49.979313"
+  },
+  "172.66.10.97": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.979399",
+    "last_seen": "2024-12-21T11:20:49.979402"
+  },
+  "104.18.119.217": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      175.0,
+      Infinity,
+      241.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979411",
+    "last_seen": "2024-12-21T11:20:49.979413"
+  },
+  "104.22.20.210": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      199.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979465",
+    "last_seen": "2024-12-21T11:20:49.979467"
+  },
+  "104.16.216.73": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      169.0,
+      Infinity,
+      200.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979480",
+    "last_seen": "2024-12-21T11:20:49.979482"
+  },
+  "104.18.60.66": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      157.0,
+      165.0,
+      194.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979525",
+    "last_seen": "2024-12-21T11:20:49.979527"
+  },
+  "104.17.156.85": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      157.0,
+      236.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.979666",
+    "last_seen": "2024-12-21T11:20:49.979671"
+  },
+  "104.25.96.238": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      371.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.979755",
+    "last_seen": "2024-12-21T11:20:49.979757"
+  },
+  "104.21.210.113": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      170.0,
+      205.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979781",
+    "last_seen": "2024-12-21T11:20:49.979783"
+  },
+  "104.18.229.121": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      66.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979835",
+    "last_seen": "2024-12-21T11:20:49.979837"
+  },
+  "104.27.155.1": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.979850",
+    "last_seen": "2024-12-21T11:20:49.979851"
+  },
+  "104.25.19.250": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      566.0,
+      160.0,
+      230.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.979856",
+    "last_seen": "2024-12-21T11:20:49.979857"
+  },
+  "172.66.85.202": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.979991",
+    "last_seen": "2024-12-21T11:20:49.979995"
+  },
+  "104.17.147.18": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      130.0,
+      154.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980005",
+    "last_seen": "2024-12-21T11:20:49.980008"
+  },
+  "104.24.138.54": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980088",
+    "last_seen": "2024-12-21T11:20:49.980091"
+  },
+  "104.25.1.64": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      513.0,
+      183.0,
+      186.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980100",
+    "last_seen": "2024-12-21T11:20:49.980103"
+  },
+  "104.16.217.108": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      220.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980246",
+    "last_seen": "2024-12-21T11:20:49.980250"
+  },
+  "104.27.23.171": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      167.0,
+      167.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980292",
+    "last_seen": "2024-12-21T11:20:49.980295"
+  },
+  "104.16.106.34": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      148.0,
+      185.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980372",
+    "last_seen": "2024-12-21T11:20:49.980375"
+  },
+  "104.17.62.90": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      259.0,
+      Infinity,
+      108.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980425",
+    "last_seen": "2024-12-21T11:20:49.980427"
+  },
+  "104.21.62.62": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      216.0,
+      192.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980477",
+    "last_seen": "2024-12-21T11:20:49.980479"
+  },
+  "172.67.80.40": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      329.0,
+      160.0,
+      217.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980522",
+    "last_seen": "2024-12-21T11:20:49.980524"
+  },
+  "104.19.253.232": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      183.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980663",
+    "last_seen": "2024-12-21T11:20:49.980667"
+  },
+  "104.19.123.48": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      429.0,
+      188.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980693",
+    "last_seen": "2024-12-21T11:20:49.980696"
+  },
+  "104.20.238.236": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      220.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980771",
+    "last_seen": "2024-12-21T11:20:49.980775"
+  },
+  "172.67.106.81": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      362.0,
+      203.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.980798",
+    "last_seen": "2024-12-21T11:20:49.980799"
+  },
+  "104.20.25.79": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      588.0,
+      267.0,
+      185.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.980845",
+    "last_seen": "2024-12-21T11:20:49.980846"
+  },
+  "104.18.107.38": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      210.0,
+      199.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981006",
+    "last_seen": "2024-12-21T11:20:49.981010"
+  },
+  "104.24.124.31": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981091",
+    "last_seen": "2024-12-21T11:20:49.981094"
+  },
+  "104.22.61.250": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      169.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981103",
+    "last_seen": "2024-12-21T11:20:49.981106"
+  },
+  "104.27.123.128": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      255.0,
+      161.0,
+      193.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981133",
+    "last_seen": "2024-12-21T11:20:49.981135"
+  },
+  "172.67.0.123": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      231.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981339",
+    "last_seen": "2024-12-21T11:20:49.981342"
+  },
+  "104.21.7.208": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      241.0,
+      185.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981360",
+    "last_seen": "2024-12-21T11:20:49.981361"
+  },
+  "172.67.71.177": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      392.0,
+      141.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981414",
+    "last_seen": "2024-12-21T11:20:49.981415"
+  },
+  "104.17.74.139": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      165.0,
+      Infinity,
+      203.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981461",
+    "last_seen": "2024-12-21T11:20:49.981463"
+  },
+  "104.27.113.121": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      368.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981511",
+    "last_seen": "2024-12-21T11:20:49.981513"
+  },
+  "104.19.182.171": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      237.0,
+      250.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981527",
+    "last_seen": "2024-12-21T11:20:49.981528"
+  },
+  "104.25.59.212": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      190.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981572",
+    "last_seen": "2024-12-21T11:20:49.981573"
+  },
+  "104.19.39.46": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      433.0,
+      169.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981587",
+    "last_seen": "2024-12-21T11:20:49.981588"
+  },
+  "104.25.38.29": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      399.0,
+      Infinity,
+      197.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981631",
+    "last_seen": "2024-12-21T11:20:49.981633"
+  },
+  "104.22.68.113": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981677",
+    "last_seen": "2024-12-21T11:20:49.981678"
+  },
+  "172.67.123.251": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      413.0,
+      183.0,
+      192.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981683",
+    "last_seen": "2024-12-21T11:20:49.981687"
+  },
+  "172.66.177.108": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      243.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981812",
+    "last_seen": "2024-12-21T11:20:49.981814"
+  },
+  "104.21.228.208": {
+    "fails": 1,
+    "tests": 1,
+    "last_latencies": [
+      386.0,
+      Infinity,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981830",
+    "last_seen": "2024-12-21T11:20:49.981832"
+  },
+  "104.25.106.101": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      361.0,
+      192.0,
+      Infinity
+    ],
+    "first_seen": "2024-12-21T11:20:49.981847",
+    "last_seen": "2024-12-21T11:20:49.981849"
+  },
+  "104.20.244.243": {
+    "fails": 0,
+    "tests": 1,
+    "last_latencies": [
+      533.0,
+      155.0,
+      217.0
+    ],
+    "first_seen": "2024-12-21T11:20:49.981897",
+    "last_seen": "2024-12-21T11:20:49.981899"
   }
 }
